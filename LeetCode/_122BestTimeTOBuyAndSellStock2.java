@@ -1,7 +1,7 @@
 public class _122BestTimeTOBuyAndSellStock2 {
     public static void main(String[] args) {
         
-        Solution121 s= new Solution121();
+        Solution122 s= new Solution122();
         int[] nums={7,1,5,3,6,4};
 
         System.out.println(s.maxProfit(nums));
@@ -15,7 +15,7 @@ class Solution122 {
     int left=0;
     int right=1;
 
-    while(left<prices.length)
+    while(left<prices.length-1)
     {
       if(prices[left]<prices[right]) 
       {
